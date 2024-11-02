@@ -1,7 +1,5 @@
 <h2 align="center">
-  <b>ImOV3D: Learning Open Vocabulary Point Clouds 3D Object Detection from Only 2D Images</b>
-
-  <b><i> NeurIPS 2024 🇨🇦 </i></b>
+   <b>【NeurIPS 2024 🇨🇦】ImOV3D: Learning Open Vocabulary Point Clouds 3D Object Detection from Only 2D Images</b>
 </h2>
 
 
