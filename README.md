@@ -1,12 +1,19 @@
 # ImOV3D: Learning Open Vocabulary Point Clouds 3D Object Detection from Only 2D Images (NeurIPS2024)
 
-### This project will be open-sourced within two weeks after the CVPR 2025 submission, between November 15 and December 1.
 
 [![ImOV3D Project on arXiv](https://img.shields.io/badge/ImOV3D_Project-arXiv-red?style=flat-square&logo=arxiv)](https://arxiv.org/pdf/2410.24001v1)
-[![ImOV3D Project Page](https://img.shields.io/badge/Project-ImOV3D_Page-blue?style=flat-square&logo=github)](https://yangtiming.github.io/ImOV3D_Page/)
+<!-- [![ImOV3D Project Page](https://img.shields.io/badge/Project-ImOV3D_Page-blue?style=flat-square&logo=github)](https://yangtiming.github.io/ImOV3D_Page/) -->
 
+> [Timing Yang*](https://yangtiming.github.io/), [Yuanliang Ju*](https://x.com/averyjuuu0213), [Li Yi](https://ericyi.github.io/) <br>
+> Shanghai Qi Zhi Institute, IIIS Tsinghua University, Shanghai AI Lab<br>
 
-## Framework
- <p align="center"> <img src='img/pipe6.png' align="center" height="400px"> </p>
+## Overall Pipeline
+ <p align="center"> <img src='img/pipe7.png' align="center" height="400px"> </p>
 
- 
+## Main Results
+ <p align="center"> <img src='img/mainresults.png' align="center" height="400px"> </p>
+
+## More Ablation Study and Visualization
+
+<p align="center"> <img src='img/abl_1.png' align="center" height="200px"> </p>
+<p align="center"> <img src='img/abl_2_vis.png' align="center" height="400px"> </p>
