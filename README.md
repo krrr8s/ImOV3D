@@ -1,4 +1,8 @@
-# ImOV3D: Learning Open Vocabulary Point Clouds 3D Object Detection from Only 2D Images (NeurIPS2024)
+<h2 align="center">
+  <b>ImOV3D: Learning Open Vocabulary Point Clouds 3D Object Detection from Only 2D Images</b>
+
+  <b><i> NeurIPS 2024 🇨🇦 </i></b>
+</h2>
 
 
 [![ImOV3D Project on arXiv](https://img.shields.io/badge/ImOV3D_Project-arXiv-red?style=flat-square&logo=arxiv)](https://arxiv.org/pdf/2410.24001v1)
