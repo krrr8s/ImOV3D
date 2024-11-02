@@ -15,5 +15,5 @@
 
 ## More Ablation Study and Visualization
 
-<p align="center"> <img src='img/abl_1.png' align="center" height="200px"> </p>
+<p align="center"> <img src='img/abl_1.png' align="center" height="250px"> </p>
 <p align="center"> <img src='img/abl_2_vis.png' align="center" height="400px"> </p>
