@@ -3,7 +3,6 @@
 ### This project will be open-sourced within two weeks after the CVPR 2025 submission, between November 15 and December 1.
 
 [![ImOV3D Project on arXiv](https://img.shields.io/badge/ImOV3D_Project-arXiv-red?style=flat-square&logo=arxiv)](https://arxiv.org/pdf/2410.24001v1)
-
 [![ImOV3D Project Page](https://img.shields.io/badge/Project-ImOV3D_Page-blue?style=flat-square&logo=github)](https://yangtiming.github.io/ImOV3D_Page/)
 
 
