@@ -7,6 +7,13 @@
 > [Timing Yang*](https://yangtiming.github.io/), [Yuanliang Ju*](https://x.com/averyjuuu0213), [Li Yi](https://ericyi.github.io/) <br>
 > Shanghai Qi Zhi Institute, IIIS Tsinghua University, Shanghai AI Lab<br>
 
+🕹️**To Do List**  
+
+&#9744; The code and data will be released within one month. Please stay tuned.
+
+&#9745; Our paper ImOV3D is released, check out it on [arXiv](https://arxiv.org/pdf/2410.24001v1).
+
+
 ## Overall Pipeline
  <p align="center"> <img src='img/pipe7.png' align="center" height="400px"> </p>
 
