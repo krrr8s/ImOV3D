@@ -1,7 +1,10 @@
 <h2 align="center">
    <b>【NeurIPS 2024 🇨🇦】ImOV3D: Learning Open Vocabulary Point Clouds 3D Object Detection from Only 2D Images</b>
 </h2>
-
+<div style="text-align: center;">
+  We are the first to accomplish Open-Vocabulary 3D Object Detection tasks<br>
+  without using any 3D ground truth data. Thank you for 🌟 our ImOV3D.
+</div>
 
 [![ImOV3D Project on arXiv](https://img.shields.io/badge/ImOV3D_Project-arXiv-red?style=flat-square&logo=arxiv)](https://arxiv.org/pdf/2410.24001v1)
 <!-- [![ImOV3D Project Page](https://img.shields.io/badge/Project-ImOV3D_Page-blue?style=flat-square&logo=github)](https://yangtiming.github.io/ImOV3D_Page/) -->
@@ -29,3 +32,9 @@ Thank you for your support ⭐ImOV3D Thanks🔥
 
 <p align="center"> <img src='img/abl_1.png' align="center" height="250px"> </p>
 <p align="center"> <img src='img/abl_2_vis.png' align="center" height="400px"> </p>
+
+## Contect
+If you have any questions, please feel free to contact us:
+
+Timing Yang: timingya@usc.edu
+Yuanliang Ju: yuanliang.ju@mial.utoronto.ca
