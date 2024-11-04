@@ -36,3 +36,13 @@ If you have any questions, please feel free to contact us:
 
 Timing Yang: timingya@usc.edu
 Yuanliang Ju: yuanliang.ju@mail.utoronto.ca
+
+## Citation
+```bibtex
+@article{yang2024imov3d,
+  title={ImOV3D: Learning Open-Vocabulary Point Clouds 3D Object Detection from Only 2D Images},
+  author={Yang, Timing and Ju, Yuanliang and Yi, Li},
+  journal={arXiv preprint arXiv:2410.24001},
+  year={2024}
+}
+```
