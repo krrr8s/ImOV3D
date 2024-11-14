@@ -42,7 +42,7 @@ Yuanliang Ju: yuanliang.ju@mail.utoronto.ca
 @article{yang2024imov3d,
   title={ImOV3D: Learning Open-Vocabulary Point Clouds 3D Object Detection from Only 2D Images},
   author={Yang, Timing and Ju, Yuanliang and Yi, Li},
-  journal={arXiv preprint arXiv:2410.24001},
+  journal={NeurIPS 2024},
   year={2024}
 }
 ```
