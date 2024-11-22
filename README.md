@@ -71,15 +71,17 @@ cd ..
 
 ## Pretrain Weight
 
-  | Module | Description |
+  | Module | Description |  | 
   |------------|-------------|
   | PointCloudRender | Finetuned ControlNet | 
 
-  | DataSet | Description |
-  |------------|-------------|
-  | LVIS | Pretrain Stage | 
-  | SUNRGBD | Adapation stage|
-  | ScanNet | Adapation stage|
+| DataSet           | Description          | Logs                      |
+|-------------------|----------------------|----------------------------|
+| LVIS              | Pretrain Stage       | [SUNRGBD](./log_eval/log_eval_pretrain_sunrgbd.txt),[ScaNet](./log_eval/log_eval_pretrain_scannet.txt)        |
+| SUNRGBD           | Adaptation Stage     | [SUNRGBD](./log_eval/log_eval_adapation_sunrgbd.txt)       |
+| ScanNet           | Adaptation Stage     | [ScanNet](./log_eval/log_eval_pretrain_scannet.txt)       |
+
+
 
   You can download then from [Baidu](https://pan.baidu.com/s/18v5VzVe3CtcUKwtiwqjEXg?pwd=0000).
 
