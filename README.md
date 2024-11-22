@@ -79,7 +79,7 @@ cd ..
 |-------------------|----------------------|----------------------------|
 | LVIS              | Pretrain Stage       | [SUNRGBD](./log_eval/log_eval_pretrain_sunrgbd.txt),[ScanNet](./log_eval/log_eval_pretrain_scannet.txt)        |
 | SUNRGBD           | Adaptation Stage     | [SUNRGBD](./log_eval/log_eval_adapation_sunrgbd.txt)       |
-| ScanNet           | Adaptation Stage     | [ScanNet](./log_eval/log_eval_pretrain_scannet.txt)       |
+| ScanNet           | Adaptation Stage     | [ScanNet](./log_eval/log_eval_adapation_scannet.txt)       |
 
 
 
