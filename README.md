@@ -58,7 +58,7 @@ cd ..
 ### Adaptation
   See [Data Preparation](./Data_Maker/DATA_MAKER_DATASET_TRAINVAL_SUN_SCAN) for SUNRGBD or ScanNet.
 
-  You can also download Data from [Baidu]([https://github.com/facebookresearch/imvotenet](https://pan.baidu.com/s/18v5VzVe3CtcUKwtiwqjEXg?pwd=0000)).
+  You can also download Data from [Baidu](https://pan.baidu.com/s/18v5VzVe3CtcUKwtiwqjEXg?pwd=0000).
 
 ### Format
     --[data_name]  # Root directory of the dataset
@@ -81,7 +81,7 @@ cd ..
   | SUNRGBD | Adapation stage|
   | ScanNet | Adapation stage|
 
-  You can download then from [Baidu]([https://github.com/facebookresearch/imvotenet](https://pan.baidu.com/s/18v5VzVe3CtcUKwtiwqjEXg?pwd=0000))
+  You can download then from [Baidu](https://pan.baidu.com/s/18v5VzVe3CtcUKwtiwqjEXg?pwd=0000).
 
 
 ## Training and Evaluation
