@@ -1,8 +1,8 @@
 #using pretrain stage weight to eval sunrgbd
 
 #If you want to evaluate the ScanNet on pretrain stage, 
-#you should change the content prepare for evaluate SUNRGBD 
-#to evaluate ScanNet on lvis folder 
+#you should change the code prepared for evaluating SUNRGBD 
+#to ScanNet on lvis folder 
 
 CUDA_VISIBLE_DEVICES=2 python ./eval.py \
 --dataset lvis \
