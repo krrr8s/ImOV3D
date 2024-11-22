@@ -71,7 +71,7 @@ cd ..
 
 ## Pretrain Weight
 
-  | Module | Description |  | 
+  | Module | Description | 
   |------------|-------------|
   | PointCloudRender | Finetuned ControlNet | 
 
