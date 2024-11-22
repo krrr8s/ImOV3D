@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python train_dist_wandb.py  \
+--dataset scannet  \
+--log_dir log_scannet  \
+--if_wandb  \
+--checkpoint_path /share1/timingyang/IMOV3D-OPENSOURCE/CHECKPOINT/pretrain/checkpoint_99.tar \
+--finetune  \
+--learning_rate 0.0005  \
+--batch_size 16 \
+--max_epoch 100  \
+--lr_decay_steps 40,80  \
+--lr_decay_rates 0.1,0.1 \
+--use_imvotenet \
+--dist_url tcp://localhost:22955 \

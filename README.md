@@ -13,12 +13,6 @@
 > Shanghai Qi Zhi Institute, IIIS Tsinghua University, Shanghai AI Lab<br>
 
 
-🕹️**To Do List**  
-
-&#9744; The code and data will be released within one month. Please stay tuned.
-
-&#9745; Our paper ImOV3D is released, check out it on [arXiv](https://arxiv.org/pdf/2410.24001v1).
-
 
 ## Overall Pipeline
  <p align="center"> <img src='img/pipe7.png' align="center" height="400px"> </p>
@@ -30,6 +24,98 @@
 
 <p align="center"> <img src='img/abl_1.png' align="center" height="250px"> </p>
 <p align="center"> <img src='img/abl_2_vis.png' align="center" height="400px"> </p>
+
+
+## Environment Setup
+
+To set up the project environment, follow this step:
+
+**Create a virtual environment:**
+```bash
+conda env create -f environment.yml
+```
+
+After creating the virtual environment, activate it with:
+```bash
+conda activate ImOV3D
+```
+
+**PointNet++ Backbone Installation**
+```bash
+cd pointnet2
+python setup.py install
+cd ..
+```
+
+
+
+## Dataset Preparation
+
+### Pretrain Stage
+
+  For detailed guidance on setting up the dataset for the pretraining stage, see the [dataset instructions](./Data_Maker/).
+
+### Adaptation
+  See [Data Preparation](./Data_Maker/DATA_MAKER_DATASET_TRAINVAL_SUN_SCAN) for SUNRGBD or ScanNet.
+
+  You can also download Data from [Baidu](https://github.com/facebookresearch/imvotenet).
+
+### Format
+    --[data_name]  # Root directory of the dataset
+      ├── [data_name]_2d_bbox_train       # Training data with 2D bounding boxes
+      ├── [data_name]_2d_bbox_val         # Validation data with 2D bounding boxes
+      ├── [data_name]_pc_bbox_votes_train # Training data with point cloud bounding box votes
+      ├── [data_name]_pc_bbox_votes_val   # Validation data with point cloud bounding box votes
+      ├── [data_name]_trainval_train      # Training data (2D image + Calib)
+      └── [data_name]_trainval_eval       # Evaluation data (2D image + Calib)
+
+## Pretrain Weight
+
+  | Module | Description |
+  |------------|-------------|
+  | PointCloudRender | Finetuned ControlNet | 
+
+  | DataSet | Description |
+  |------------|-------------|
+  | LVIS | Pretrain Stage | 
+  | SUNRGBD | Adapation stage|
+  | ScanNet | Adapation stage|
+
+  You can download then from [Baidu](https://github.com/facebookresearch/imvotenet)
+
+
+## Training and Evaluation
+
+**Pretrain**
+
+Pretrain ImOV3D on the LVIS dataset:
+```bash
+bash ./scripts/train_lvis.sh
+```
+
+**Adapation**
+
+For the SUNRGBD dataset:
+```bash
+bash ./scripts/train_sunrgbd.sh
+```
+
+For the ScanNet dataset:
+
+```bash
+bash ./scripts/train_scannet.sh
+```
+
+**Evaluation**
+
+To measure the effectiveness of model, proceed to the evaluation phase.
+
+```bash
+bash ./scripts/eval.sh
+```
+## Acknowledgement
+Our code is based on [ImVoteNet](https://github.com/facebookresearch/imvotenet), and also references [OV-3DET](https://github.com/lyhdet/OV-3DET). During the data generation phase, we borrowed code from [Detic](https://github.com/facebookresearch/Detic), [ControlNet](https://github.com/lllyasviel/ControlNet), [ZoeDepth](https://github.com/isl-org/ZoeDepth), [surface_normal_uncertainty](https://github.com/baegwangbin/surface_normal_uncertainty).
+
 
 ## Contect
 If you have any questions, please feel free to contact us:

@@ -1,0 +1,100 @@
+Namespace(DUMP_DIR='./log_010_old/eval_imvotenet_checkpoint_96', ap_iou_thresholds='0.25,0.5', batch_size=8, checkpoint_path='/share1/timingyang/NIPS20240510/revise_1203/imvotenet_wandb_indoorimage_pretrain_finetune/log_imvotenet_indoorimage_pretrain_4stage_scannet_new_revise_2Dbranch_1203/checkpoint_96.tar', cluster_sampling='seed_fps', conf_thresh=0.05, dump_dir='./log_010_old/eval_imvotenet_checkpoint_96', faster_eval=False, max_imvote_per_pixel=3, nms_iou=0.25, no_height=False, num_point=20000, num_target=256, per_class_proposal=True, shuffle_dataset=False, use_3d_nms=True, use_cls_nms=True, use_color=False, use_imvotenet=True, use_old_type_nms=False, use_sunrgbd_v2=False, vote_factor=1)
+Loaded checkpoint /share1/timingyang/NIPS20240510/revise_1203/imvotenet_wandb_indoorimage_pretrain_finetune/log_imvotenet_indoorimage_pretrain_4stage_scannet_new_revise_2Dbranch_1203/checkpoint_96.tar (epoch: 97)
+eval mean loss: 41.809140
+eval mean pc_img_box_loss: 3.550429
+eval mean pc_img_center_loss: 0.039767
+eval mean pc_img_heading_cls_loss: 1.456313
+eval mean pc_img_heading_reg_loss: 0.103880
+eval mean pc_img_loss: 41.809140
+eval mean pc_img_neg_ratio: 0.441840
+eval mean pc_img_obj_acc: 0.598356
+eval mean pc_img_objectness_loss: 0.366302
+eval mean pc_img_pos_ratio: 0.358197
+eval mean pc_img_sem_cls_loss: 1.353654
+eval mean pc_img_size_cls_loss: 9.265920
+eval mean pc_img_size_reg_loss: 2.334559
+eval mean pc_img_vote_loss: 0.311968
+eval toilet Average Precision: 0.792337
+eval bed Average Precision: 0.520654
+eval chair Average Precision: 0.292543
+eval sofa Average Precision: 0.601967
+eval dresser Average Precision: 0.004691
+eval table Average Precision: 0.216652
+eval cabinet Average Precision: 0.022051
+eval bookshelf Average Precision: 0.013697
+eval pillow Average Precision: 0.234996
+eval sink Average Precision: 0.420187
+eval bathtub Average Precision: 0.513868
+eval refrigerator Average Precision: 0.256463
+eval desk Average Precision: 0.301078
+eval night stand Average Precision: 0.003886
+eval counter Average Precision: 0.006625
+eval door Average Precision: 0.010476
+eval curtain Average Precision: 0.000655
+eval box Average Precision: 0.029364
+eval lamp Average Precision: 0.026956
+eval bag Average Precision: 0.021292
+eval mAP: 0.214522
+eval toilet Recall: 0.916067
+eval bed Recall: 0.883446
+eval chair Recall: 0.823799
+eval sofa Recall: 0.927273
+eval dresser Recall: 0.732484
+eval table Recall: 0.760733
+eval cabinet Recall: 0.547880
+eval bookshelf Recall: 0.389262
+eval pillow Recall: 0.716387
+eval sink Recall: 0.742475
+eval bathtub Recall: 0.735192
+eval refrigerator Recall: 0.842657
+eval desk Recall: 0.832009
+eval night stand Recall: 0.752443
+eval counter Recall: 0.321256
+eval door Recall: 0.615656
+eval curtain Recall: 0.395197
+eval box Recall: 0.683761
+eval lamp Recall: 0.311111
+eval bag Recall: 0.528497
+eval AR: 0.672879
+eval toilet Average Precision: 0.295707
+eval bed Average Precision: 0.236595
+eval chair Average Precision: 0.047643
+eval sofa Average Precision: 0.481528
+eval dresser Average Precision: 0.000926
+eval table Average Precision: 0.061823
+eval cabinet Average Precision: 0.001808
+eval bookshelf Average Precision: 0.005435
+eval pillow Average Precision: 0.011970
+eval sink Average Precision: 0.058270
+eval bathtub Average Precision: 0.232365
+eval refrigerator Average Precision: 0.068881
+eval desk Average Precision: 0.075225
+eval night stand Average Precision: 0.000524
+eval counter Average Precision: 0.000020
+eval door Average Precision: 0.000571
+eval curtain Average Precision: 0.000012
+eval box Average Precision: 0.005095
+eval lamp Average Precision: 0.002351
+eval bag Average Precision: 0.001186
+eval mAP: 0.079397
+eval toilet Recall: 0.513189
+eval bed Recall: 0.562500
+eval chair Recall: 0.396146
+eval sofa Recall: 0.732121
+eval dresser Recall: 0.331210
+eval table Recall: 0.358329
+eval cabinet Recall: 0.183311
+eval bookshelf Recall: 0.177852
+eval pillow Recall: 0.149160
+eval sink Recall: 0.230769
+eval bathtub Recall: 0.393728
+eval refrigerator Recall: 0.374126
+eval desk Recall: 0.334847
+eval night stand Recall: 0.302932
+eval counter Recall: 0.026570
+eval door Recall: 0.167842
+eval curtain Recall: 0.037118
+eval box Recall: 0.232194
+eval lamp Recall: 0.066667
+eval bag Recall: 0.145078
+eval AR: 0.285784

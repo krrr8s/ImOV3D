@@ -1,0 +1,101 @@
+Namespace(DUMP_DIR='eval_imvotenet_checkpoint_99_select', ap_iou_thresholds='0.25,0.5', batch_size=8, checkpoint_path='./log_extrinsic_revised/checkpoint_99.tar', cluster_sampling='seed_fps', conf_thresh=0.05, dump_dir='eval_imvotenet_checkpoint_99_select', faster_eval=False, max_imvote_per_pixel=3, nms_iou=0.25, no_height=False, num_point=20000, num_target=256, per_class_proposal=True, shuffle_dataset=False, use_3d_nms=True, use_cls_nms=True, use_color=False, use_imvotenet=True, use_old_type_nms=False, use_sunrgbd_v2=False, vote_factor=1)
+Loaded checkpoint ./log_extrinsic_revised/checkpoint_99.tar (epoch: 100)
+
+eval mean loss: 92.449426
+eval mean pc_img_box_loss: 8.559644
+eval mean pc_img_center_loss: 0.046309
+eval mean pc_img_heading_cls_loss: 1.720749
+eval mean pc_img_heading_reg_loss: 0.117424
+eval mean pc_img_loss: 92.449426
+eval mean pc_img_neg_ratio: 0.495729
+eval mean pc_img_obj_acc: 0.530504
+eval mean pc_img_objectness_loss: 0.230621
+eval mean pc_img_pos_ratio: 0.274127
+eval mean pc_img_sem_cls_loss: 1.975354
+eval mean pc_img_size_cls_loss: 18.817561
+eval mean pc_img_size_reg_loss: 6.342081
+eval mean pc_img_vote_loss: 0.372453
+eval toilet Average Precision: 0.558616
+eval bed Average Precision: 0.288254
+eval chair Average Precision: 0.117235
+eval sofa Average Precision: 0.281621
+eval dresser Average Precision: 0.004530
+eval table Average Precision: 0.074426
+eval cabinet Average Precision: 0.012338
+eval bookshelf Average Precision: 0.000556
+eval pillow Average Precision: 0.044268
+eval sink Average Precision: 0.291288
+eval bathtub Average Precision: 0.436100
+eval refrigerator Average Precision: 0.149059
+eval desk Average Precision: 0.130511
+eval night stand Average Precision: 0.000989
+eval counter Average Precision: 0.001756
+eval door Average Precision: 0.017743
+eval curtain Average Precision: 0.005358
+eval box Average Precision: 0.005647
+eval lamp Average Precision: 0.103458
+eval bag Average Precision: 0.005010
+eval mAP: 0.126438
+eval toilet Recall: 0.892086
+eval bed Recall: 0.753378
+eval chair Recall: 0.706332
+eval sofa Recall: 0.711515
+eval dresser Recall: 0.442675
+eval table Recall: 0.613051
+eval cabinet Recall: 0.431601
+eval bookshelf Recall: 0.325503
+eval pillow Recall: 0.522059
+eval sink Recall: 0.608696
+eval bathtub Recall: 0.770035
+eval refrigerator Recall: 0.615385
+eval desk Recall: 0.673099
+eval night stand Recall: 0.296417
+eval counter Recall: 0.243961
+eval door Recall: 0.392807
+eval curtain Recall: 0.347162
+eval box Recall: 0.492877
+eval lamp Recall: 0.505556
+eval bag Recall: 0.479275
+eval AR: 0.541173
+eval toilet Average Precision: 0.144592
+eval bed Average Precision: 0.019613
+eval chair Average Precision: 0.009882
+eval sofa Average Precision: 0.118239
+eval dresser Average Precision: 0.000042
+eval table Average Precision: 0.001055
+eval cabinet Average Precision: 0.000107
+eval bookshelf Average Precision: 0.000047
+eval pillow Average Precision: 0.001591
+eval sink Average Precision: 0.011777
+eval bathtub Average Precision: 0.053667
+eval refrigerator Average Precision: 0.022846
+eval desk Average Precision: 0.002506
+eval night stand Average Precision: 0.000011
+eval counter Average Precision: 0.000018
+eval door Average Precision: 0.000264
+eval curtain Average Precision: 0.000388
+eval box Average Precision: 0.000094
+eval lamp Average Precision: 0.003386
+eval bag Average Precision: 0.000398
+eval mAP: 0.019526
+eval toilet Recall: 0.393285
+eval bed Recall: 0.145270
+eval chair Recall: 0.185072
+eval sofa Recall: 0.307879
+eval dresser Recall: 0.041401
+eval table Recall: 0.087579
+eval cabinet Recall: 0.054720
+eval bookshelf Recall: 0.030201
+eval pillow Recall: 0.071429
+eval sink Recall: 0.098662
+eval bathtub Recall: 0.156794
+eval refrigerator Recall: 0.164336
+eval desk Recall: 0.085131
+eval night stand Recall: 0.032573
+eval counter Recall: 0.021739
+eval door Recall: 0.059944
+eval curtain Recall: 0.037118
+eval box Recall: 0.065527
+eval lamp Recall: 0.088889
+eval bag Recall: 0.121762
+eval AR: 0.112466

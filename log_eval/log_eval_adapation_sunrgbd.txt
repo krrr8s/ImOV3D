@@ -1,0 +1,101 @@
+Namespace(DUMP_DIR='./log_005_aftereccv/eval_imvotenet_checkpoint_48', ap_iou_thresholds='0.25,0.5', batch_size=8, checkpoint_path='./log_imvotenet_indoorimage_pretrain_4stage_revise_2Dbranch_1203/checkpoint_48.tar', cluster_sampling='seed_fps', conf_thresh=0.05, dump_dir='./log_005_aftereccv/eval_imvotenet_checkpoint_48', faster_eval=False, max_imvote_per_pixel=3, nms_iou=0.25, no_height=False, num_point=20000, num_target=256, per_class_proposal=True, shuffle_dataset=False, use_3d_nms=True, use_cls_nms=True, use_color=False, use_imvotenet=True, use_old_type_nms=False, use_sunrgbd_v2=False, vote_factor=1)
+Loaded checkpoint ./log_imvotenet_indoorimage_pretrain_4stage_revise_2Dbranch_1203/checkpoint_48.tar (epoch: 49)
+
+eval mean loss: 30.946202
+eval mean pc_img_box_loss: 2.390197
+eval mean pc_img_center_loss: 0.107306
+eval mean pc_img_heading_cls_loss: 4.678100
+eval mean pc_img_heading_reg_loss: 0.162296
+eval mean pc_img_loss: 30.946202
+eval mean pc_img_neg_ratio: 0.520023
+eval mean pc_img_obj_acc: 0.586888
+eval mean pc_img_objectness_loss: 0.338889
+eval mean pc_img_pos_ratio: 0.284099
+eval mean pc_img_sem_cls_loss: 0.900174
+eval mean pc_img_size_cls_loss: 8.513082
+eval mean pc_img_size_reg_loss: 0.801477
+eval mean pc_img_vote_loss: 0.444961
+eval toilet Average Precision: 0.766988
+eval bed Average Precision: 0.653614
+eval chair Average Precision: 0.322052
+eval bathtub Average Precision: 0.557669
+eval sofa Average Precision: 0.500148
+eval dresser Average Precision: 0.002046
+eval scanner Average Precision: 0.029432
+eval fridge Average Precision: 0.137665
+eval lamp Average Precision: 0.262031
+eval desk Average Precision: 0.115372
+eval table Average Precision: 0.166769
+eval stand Average Precision: 0.000827
+eval cabinet Average Precision: 0.004716
+eval counter Average Precision: 0.000289
+eval bin Average Precision: 0.292120
+eval bookshelf Average Precision: 0.001055
+eval pillow Average Precision: 0.157110
+eval microwave Average Precision: 0.207434
+eval sink Average Precision: 0.302115
+eval stool Average Precision: 0.028060
+eval mAP: 0.225376
+eval toilet Recall: 0.867550
+eval bed Recall: 0.751381
+eval chair Recall: 0.534964
+eval bathtub Recall: 0.730769
+eval sofa Recall: 0.777778
+eval dresser Recall: 0.574074
+eval scanner Recall: 0.622642
+eval fridge Recall: 0.459119
+eval lamp Recall: 0.678679
+eval desk Recall: 0.519921
+eval table Recall: 0.604499
+eval stand Recall: 0.594488
+eval cabinet Recall: 0.419048
+eval counter Recall: 0.402439
+eval bin Recall: 0.685315
+eval bookshelf Recall: 0.153846
+eval pillow Recall: 0.513173
+eval microwave Recall: 0.652632
+eval sink Recall: 0.585635
+eval stool Recall: 0.480769
+eval AR: 0.580436
+eval toilet Average Precision: 0.200441
+eval bed Average Precision: 0.292194
+eval chair Average Precision: 0.016887
+eval bathtub Average Precision: 0.052671
+eval sofa Average Precision: 0.292172
+eval dresser Average Precision: 0.000157
+eval scanner Average Precision: 0.005168
+eval fridge Average Precision: 0.002216
+eval lamp Average Precision: 0.006463
+eval desk Average Precision: 0.007906
+eval table Average Precision: 0.020005
+eval stand Average Precision: 0.000101
+eval cabinet Average Precision: 0.000239
+eval counter Average Precision: 0.000003
+eval bin Average Precision: 0.017207
+eval bookshelf Average Precision: 0.000073
+eval pillow Average Precision: 0.005791
+eval microwave Average Precision: 0.025488
+eval sink Average Precision: 0.002099
+eval stool Average Precision: 0.000519
+eval mAP: 0.047390
+eval toilet Recall: 0.357616
+eval bed Recall: 0.419890
+eval chair Recall: 0.074642
+eval bathtub Recall: 0.211538
+eval sofa Recall: 0.486698
+eval dresser Recall: 0.157407
+eval scanner Recall: 0.188679
+eval fridge Recall: 0.044025
+eval lamp Recall: 0.096096
+eval desk Recall: 0.090999
+eval table Recall: 0.155419
+eval stand Recall: 0.200787
+eval cabinet Recall: 0.097619
+eval counter Recall: 0.030488
+eval bin Recall: 0.139860
+eval bookshelf Recall: 0.013378
+eval pillow Recall: 0.079038
+eval microwave Recall: 0.136842
+eval sink Recall: 0.033149
+eval stool Recall: 0.048077
+eval AR: 0.153112
