@@ -88,14 +88,14 @@ cd ..
 
 ## Training and Evaluation
 
-**Pretrain**
+**1️⃣ Pretrain**
 
 Pretrain ImOV3D on the LVIS dataset:
 ```bash
 bash ./scripts/train_lvis.sh
 ```
 
-**Adapation**
+**2️⃣ Adapation**
 
 For the SUNRGBD dataset:
 ```bash
@@ -108,15 +108,13 @@ For the ScanNet dataset:
 bash ./scripts/train_scannet.sh
 ```
 
-**Evaluation**
+**3️⃣ Evaluation**
 
 To measure the effectiveness of model, proceed to the evaluation phase.
 
 ```bash
 bash ./scripts/eval.sh
 ```
-## Acknowledgement
-Our code is based on [ImVoteNet](https://github.com/facebookresearch/imvotenet), and also references [OV-3DET](https://github.com/lyhdet/OV-3DET). During the data generation phase, we borrowed code from [Detic](https://github.com/facebookresearch/Detic), [ControlNet](https://github.com/lllyasviel/ControlNet), [ZoeDepth](https://github.com/isl-org/ZoeDepth), [surface_normal_uncertainty](https://github.com/baegwangbin/surface_normal_uncertainty).
 
 
 ## Contect
@@ -124,6 +122,11 @@ If you have any questions, please feel free to contact us:
 
 Timing Yang: timingya@usc.edu
 Yuanliang Ju: yuanliang.ju@mail.utoronto.ca
+
+
+## Acknowledgement
+Our code is based on [ImVoteNet](https://github.com/facebookresearch/imvotenet), [OV-3DET](https://github.com/lyhdet/OV-3DET). During the data generation phase, [Detic](https://github.com/facebookresearch/Detic), [ControlNet](https://github.com/lllyasviel/ControlNet), [ZoeDepth](https://github.com/isl-org/ZoeDepth), [surface_normal_uncertainty](https://github.com/baegwangbin/surface_normal_uncertainty).
+
 
 ## Citation
 ```bibtex
@@ -134,3 +137,4 @@ Yuanliang Ju: yuanliang.ju@mail.utoronto.ca
   year={2024}
 }
 ```
+
