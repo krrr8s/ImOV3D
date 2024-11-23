@@ -125,7 +125,7 @@ Yuanliang Ju: yuanliang.ju@mail.utoronto.ca
 
 
 ## Acknowledgement
-Our code is based on [ImVoteNet](https://github.com/facebookresearch/imvotenet), [OV-3DET](https://github.com/lyhdet/OV-3DET). During the data generation phase, [Detic](https://github.com/facebookresearch/Detic), [ControlNet](https://github.com/lllyasviel/ControlNet), [ZoeDepth](https://github.com/isl-org/ZoeDepth), [surface_normal_uncertainty](https://github.com/baegwangbin/surface_normal_uncertainty).
+Our code is based on [ImVoteNet](https://github.com/facebookresearch/imvotenet), [OV-3DET](https://github.com/lyhdet/OV-3DET), [Detic](https://github.com/facebookresearch/Detic), [ControlNet](https://github.com/lllyasviel/ControlNet), [ZoeDepth](https://github.com/isl-org/ZoeDepth), [surface_normal_uncertainty](https://github.com/baegwangbin/surface_normal_uncertainty).
 
 
 ## Citation
