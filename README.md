@@ -17,13 +17,13 @@
 ## Overall Pipeline
  <p align="center"> <img src='img/pipe7.png' align="center" height="400px"> </p>
 
-## Main Results
+<!-- ## Main Results
  <p align="center"> <img src='img/mainresults.png' align="center" height="400px"> </p>
 
 ## More Ablation Study and Visualization
 
 <p align="center"> <img src='img/abl_1.png' align="center" height="250px"> </p>
-<p align="center"> <img src='img/abl_2_vis.png' align="center" height="400px"> </p>
+<p align="center"> <img src='img/abl_2_vis.png' align="center" height="400px"> </p> -->
 
 
 ## Environment Setup

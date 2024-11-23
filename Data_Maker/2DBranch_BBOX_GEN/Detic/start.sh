@@ -1,4 +1,3 @@
-
 CUDA_VISIBLE_DEVICES=0 python demo_2DBranch_gen.py \
 --config-file configs/Detic_LCOCOI21k_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml \
 --input desk \

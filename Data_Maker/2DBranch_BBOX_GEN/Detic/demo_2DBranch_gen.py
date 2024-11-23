@@ -117,7 +117,7 @@ import torch.distributed as dist
 import torch.multiprocessing as mp
 
 # Specify your folders here
-image_folder = "/share1/timingyang/IMOV3D-OPENSOURCE/Data_Maker/PointCloudRender/ControlNet-main/demo_output"
+image_folder = "XXX/demo_output"
 image_files = glob.glob(os.path.join(image_folder, "*.png"))
 output_image_folder = "./demo_output_finetune/image"
 output_txt_folder = "./demo_output_finetune/data_2d_bbox"
