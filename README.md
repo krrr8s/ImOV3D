@@ -7,7 +7,7 @@
 
 
 [![ImOV3D Project on arXiv](https://img.shields.io/badge/ImOV3D_Project-arXiv-red?style=flat-square&logo=arxiv)](https://arxiv.org/pdf/2410.24001v1)
-<!-- [![ImOV3D Project Page](https://img.shields.io/badge/Project-ImOV3D_Page-blue?style=flat-square&logo=github)](https://yangtiming.github.io/ImOV3D_Page/) -->
+[![ImOV3D Project Page](https://img.shields.io/badge/Project-ImOV3D_Page-blue?style=flat-square&logo=github)](https://yangtiming.github.io/ImOV3D_Page/)
 
 > [Timing Yang*](https://yangtiming.github.io/), [Yuanliang Ju*](https://x.com/averyjuuu0213), [Li Yi](https://ericyi.github.io/) <br>
 > Shanghai Qi Zhi Institute, IIIS Tsinghua University, Shanghai AI Lab<br>
